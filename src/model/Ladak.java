@@ -1,7 +1,6 @@
 package model;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -13,9 +12,9 @@ public class Ladak {
         feltolt();
     }
 
-    Lada arany = new Lada(1, "Arany", "Nálam van", false);
-    Lada ezust = new Lada(2, "Ezüst", "Nincs nálam", true);
-    Lada bronze = new Lada(3, "Bronze", "Arany hazudik", false);
+    Lada arany = new Lada(1, "Arany", "Nálam van");
+    Lada ezust = new Lada(2, "Ezüst", "Nincs nálam");
+    Lada bronze = new Lada(3, "Bronz", "Arany hazudik");
 
     private void feltolt() {
         ladak.add(arany);

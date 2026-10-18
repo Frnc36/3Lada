@@ -14,7 +14,7 @@ public class Controller {
         this.ladak = ladak;
         this.view = view;
         this.scanner = new Scanner(System.in);
-        
+
         view.udvozloUzenet();
         view.kiir(ladak);
 

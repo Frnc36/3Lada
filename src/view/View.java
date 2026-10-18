@@ -20,7 +20,7 @@ public class View {
     }
     
     public void udvozloUzenet(){
-        System.out.println("A 3 láda közül csak az egyiknek van igaza.");
+        System.out.println("A 3 láda közül csak az egyiknek van kincse.");
     }
 
 }
