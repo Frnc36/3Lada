@@ -7,17 +7,15 @@ import java.util.List;
 
 public class Ladak {
 
-    private Lada lada;
     private List<Lada> ladak = new ArrayList<>();
 
-    public Ladak(Lada lada) {
-        this.lada = lada;
+    public Ladak() {
         feltolt();
     }
 
-    Lada arany = new Lada("Arany", "Nálam van", false);
-    Lada ezust = new Lada("Ezüst", "Nincs nálam", true);
-    Lada bronze = new Lada("Bronze", "Arany hazudik", false);
+    Lada arany = new Lada(1, "Arany", "Nálam van", false);
+    Lada ezust = new Lada(2, "Ezüst", "Nincs nálam", true);
+    Lada bronze = new Lada(3, "Bronze", "Arany hazudik", false);
 
     private void feltolt() {
         ladak.add(arany);
